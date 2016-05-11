@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Mik Mak 2016</h1>
+    <h2>Page d'accueil</h2>
+   
+</div>
+
+<div class="row">
+    @*<button type="button" onclick="window.location(href='@Url.Action("Index", "Article")')">
+        Article
+    </button>
+    <button type="button" onclick="window.location(href='@Url.Action("Index", "ArticleType")')">
+        Type d'article
+    </button>
+    <button type="button" onclick="window.location(href='@Url.Action("Index", "UnitBase")')">
+        Unité de base
+    </button>
+    <button type="button" onclick="window.location(href='@Url.Action("Index", "Supplier")')">
+        Fournisseur
+    </button>*@
+
+    <button type="button" onclick="location.href='@Url.Action("Index", "Article")'">
+        Article
+@*        <img alt="New" title="New" src="~/Images/Button/plus.png">*@
+    </button>
+    <button type="button" onclick="location.href='@Url.Action("Index", "ArticleType")'">
+        Type d'article
+@*        <img alt="New" title="New" src="~/Images/Button/plus.png">*@
+    </button>
+    <button type="button" onclick="location.href='@Url.Action("Index", "UnitBase")'">
+        Unité de base
+@*        <img alt="New" title="New" src="~/Images/Button/plus.png">*@
+    </button>
+    <button type="button" onclick="location.href='@Url.Action("Index", "Supplier")'">
+        Fournisseur
+@*        <img alt="New" title="New" src="~/Images/Button/plus.png">*@
+    </button>
+    <button type="button" onclick="location.href='@Url.Action("Index", "ProductArticle")'">
+        Produit
+@*        <img alt="New" title="New" src="~/Images/Button/plus.png">*@
+    </button>
+</div>
